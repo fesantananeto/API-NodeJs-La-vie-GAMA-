@@ -38,5 +38,5 @@ API Node.js desenvolvida durante Desafio #3 do XP48 da gama Academy com objetivo
 
 ## EQUIPE
 
-| [<img src="https://avatars.githubusercontent.com/alexiatawanysil" width=115><br><sub>Alexia Tawany</sub><br><sub>5128XP48</sub>](https://github.com/alexiatawanysil) |  [<img src="https://avatars.githubusercontent.com/fesantananeto" width=115><br><sub>Fernando de Santana Neto</sub><br><sub>5111XP48</sub>](https://github.com/fesantananeto) |  [<img src="https://avatars.githubusercontent.com/" width=115><br><sub>Joyce Souza</sub></br><sub>4997XP48</sub>](https://github.com/) | 
+| [<img src="https://avatars.githubusercontent.com/alexiatawanysil" width=115><br><sub>Alexia Tawany</sub><br><sub>5128XP48</sub>](https://github.com/alexiatawanysil) |  [<img src="https://avatars.githubusercontent.com/fesantananeto" width=115><br><sub>Fernando de Santana Neto</sub><br><sub>5111XP48</sub>](https://github.com/fesantananeto) |  [<img src="https://avatars.githubusercontent.com/" width=115><br><sub>Lauro Guarnieri</sub></br><sub>4997XP48</sub>](https://github.com/) | 
 | :---: | :---: | :---: | 

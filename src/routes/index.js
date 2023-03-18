@@ -8,7 +8,7 @@ import auth from '../middlewares/auth.js';
 import psicologoValidation from '../validations/psicologValidation/psicologoValidation.js';
 import pacienteValidation from '../validations/pacienteValidation/pacienteValidation.js';
 import atendimentoValidation from '../validations/atendimentoValidation/atendimentoValidation.js';
-
+import dashboardController from '../controlls/dashboardController.js';
 const routes = express.Router();
 
 
@@ -26,9 +26,9 @@ routes.delete('/pacientes/:id', pacientesController.deletarPaciente);
 routes.get('/atendimentos', atendimentosController.listarAtendimentos);
 routes.get('/atendimentos/:id', atendimentosController.listarAtendimento);
 routes.post('/atendimentos', atendimentoValidation, auth, atendimentosController.cadastrarAtendimentos);
-routes.get('/dashboard/numero-pacientes');
-routes.get('/dashboard/numero-atendimentos');
-routes.get('/dashboard/numero-psicologos');
+routes.get('/dashboard/numero-pacientes', dashboardController.numeroPacientes );
+routes.get('/dashboard/numero-atendimentos', dashboardController.numeroAtendimentos);
+routes.get('/dashboard/numero-psicologos', dashboardController.numeroPsicologos);
 routes.get('/dashboard/media-atendimentos-por-psicologos');
 
 export default routes; 
