@@ -13,8 +13,9 @@ API Node.js desenvolvida durante Desafio #3 do XP48 da gama Academy com objetivo
 - Criar, atualizar e deletar cadastro de pacientes
 - Listar todos os psicologs ou apenas um usando o ID
 - Criar, atualizar e deletar cadastro de psicologos
-- Listar todos os psicologs ou apenas um usando o ID
-- Criar, atualizar e deletar cadastro de psicologos
+- Listar todos os atendimentos ou apenas um usando o ID
+- Criar, atualizar e deletar cadastro de atendimentos
+
 
 </br>
 
@@ -37,5 +38,5 @@ API Node.js desenvolvida durante Desafio #3 do XP48 da gama Academy com objetivo
 
 ## EQUIPE
 
-| [<img src="https://avatars.githubusercontent.com/AleDePaula" width=115><br><sub>Alexandre Augusto de Paula</sub><br><sub>4995XP48</sub>](https://github.com/AleDePaula) |  [<img src="https://avatars.githubusercontent.com/fesantananeto" width=115><br><sub>Fernando de Santana Neto</sub><br><sub>5111XP48</sub>](https://github.com/fesantananeto) |  [<img src="https://avatars.githubusercontent.com/joycesnellings" width=115><br><sub>Joyce Souza</sub></br><sub>5113XP48</sub>](https://github.com/joycesnellings) | [<img src="https://avatars.githubusercontent.com/Felipe-Full" width=115><br><sub>Felipe Barbosa</sub></br><sub>5126XP48</sub>](https://github.com/Felipe-Full) |
-| :---: | :---: | :---: | :---:| 
+| [<img src="https://avatars.githubusercontent.com/alexiatawanysil" width=115><br><sub>Alexia Tawany</sub><br><sub>5128XP48</sub>](https://github.com/alexiatawanysil) |  [<img src="https://avatars.githubusercontent.com/fesantananeto" width=115><br><sub>Fernando de Santana Neto</sub><br><sub>5111XP48</sub>](https://github.com/fesantananeto) |  [<img src="https://avatars.githubusercontent.com/joycesnellings" width=115><br><sub>Joyce Souza</sub></br><sub>5113XP48</sub>](https://github.com/joycesnellings) | 
+| :---: | :---: | :---: | 
