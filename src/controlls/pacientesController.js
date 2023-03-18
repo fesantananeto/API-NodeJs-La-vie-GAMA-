@@ -20,7 +20,7 @@ const pacientesController = {
         if (paciente) {
           res.json(paciente);
         } else {
-          res.status(404).json({ message: "Paciente not found" });
+          res.status(404).json({ message: "Id não encontrado" });
         }
       },
 //
@@ -52,31 +52,23 @@ const pacientesController = {
         }
 
         );
-        res.json('Paciente Atualizado')
+        const paciente = await Pacientes.findOne({ where: { id } });
+        res.status(200).json(paciente);
     
     },
 //
     async deletarPaciente(req, res){
-        try { // tenta fazer o comando abaixo
-            const {id} = req.params;
-
-            if (!id) {
-                res.json('paciente não encontrado');
-              } else {
-                res.status(404).json({ message: "Paciente not found" });
-              }
+            const { id } = req.params;
+            const deletaPaciente = await Pacientes.findByPk(id);
+            if (!deletaPaciente) {
+                res.json('Id não encontrado');
+              } 
             
         await Pacientes.destroy({
-            where: {
-                id,
-            },
+            where: { id }
         });
 
-        res.status(204);
-
-        }catch(error){ // trata o erro e especifica o que fazer em caso de erro
-            return res.status(500).json('Ocorreu algum problema')
-        }
+        res.status(204).send();
         
     },
 

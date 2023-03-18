@@ -21,6 +21,7 @@ const Psicologos = db.define("Psicologos",{
     }
 },
 {
+    timestamps: false,
     tableName: 'psicologos',
 });
 

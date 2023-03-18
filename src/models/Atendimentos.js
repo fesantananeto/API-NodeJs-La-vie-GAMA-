@@ -13,14 +13,15 @@ const Atendimentos = db.define('Atendimentos',{
     psicologo_id: {
         type: DataType.INTEGER,
     },
-    data_atendimento: {
+     data_atendimento: {
         type: DataType.DATE,
-    },
+     },
     observacao:{
         type: DataType.TEXT,
     }
 },
 {
+    timestamps: false,
     tableName: 'atendimentos',
 });
 

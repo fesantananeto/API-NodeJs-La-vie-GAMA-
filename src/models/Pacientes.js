@@ -14,11 +14,12 @@ const Pacientes = db.define("Pacientes",{
         type: DataType.STRING,
     },
     idade: {
-        type: DataType.INTEGER,
+        type: DataType.DATE,
     }
 
 },
 {
+    timestamps: false,
     tableName: 'pacientes',
 });
 
