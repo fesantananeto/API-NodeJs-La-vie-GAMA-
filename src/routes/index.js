@@ -1,6 +1,6 @@
 import express from 'express';
 import atendimentosController from '../controlls/atendimentosController.js';
-import pacientesController from '../controlls/PacientesController.js';
+import pacientesController from '../controlls/pacientesController.js';
 import psicologosController from '../controlls/psicologosController.js';
 import authController from '../controlls/authController.js';
 import loginValidation from '../validations/loginValidation/login.js';
